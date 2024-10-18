@@ -1,0 +1,60 @@
+{
+  "zscloud.net": {
+    "continent : EMEA": {
+      "city : Amsterdam II": [
+        {
+          "vpn": [
+            "netscalar-vpn.zscloud.net",
+            "netscalar-vpn2.zscloud.net"
+          ],
+          "range": [
+            "netscalar-vpn.zscloud.net",
+            "netscalar-vpn2.zscloud.net"
+          ],
+          "gre": "185.46.212.36",
+          "hostname": "ams2.sme.zscloud.net",
+          "latitude": "52",
+          "longitude": "5"
+        },
+        {
+          "vpn": [
+            "netscalar-vpn.zscloud.net",
+            "netscalar-vpn2.zscloud.net"
+          ],
+          "range": [
+            "185.46.214.0/23",
+            "185.46.214.1/23"
+          ],
+          "gre": "185.46.212.36",
+          "hostname": "ams2.sme.zscloud.net",
+          "latitude": "52",
+          "longitude": "5"
+        }
+      ],
+      "city : Amsterdam III": [
+        {
+          "range": "147.161.156.0/23",
+          "vpn": {
+            "address1": "netscalar-vpn.zscloud.net",
+            "address2": "netscalar-vpn2.zscloud.net"
+          },
+          "gre": "185.46.212.36",
+          "hostname": "ams2.sme.zscloud.net",
+          "latitude": "52",
+          "longitude": "5"
+        },
+        {
+          "range": "185.46.214.0/23",
+          "vpn": {
+            "address1": "netscalar-vpn.zscloud.net",
+            "address2": "netscalar-vpn2.zscloud.net"
+          },
+          "gre": "185.46.212.36",
+          "hostname": "ams2.sme.zscloud.net",
+          "latitude": "52",
+          "longitude": "5"
+        }
+      ]
+    }
+  }
+}
